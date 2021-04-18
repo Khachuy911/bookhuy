@@ -1,0 +1,19 @@
+h1 {
+  color: red;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.card {
+  flex-basis: 23%;
+  margin: 5px;
+}
+img {
+  height: 350px;
+}
+.card-textoption {
+  height: 140px;
+}
