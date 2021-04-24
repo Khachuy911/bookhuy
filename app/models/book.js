@@ -11,7 +11,7 @@ const book = new Schema(
     },
     description: String,
     price: String,
-    author: String,
+    author: mongoose.SchemaTypes.ObjectId,
     image: String,
     slug: String,
   },
